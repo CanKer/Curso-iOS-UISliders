@@ -14,6 +14,7 @@
 
 @implementation ViewController
 @synthesize label1;
+
 @synthesize label2;
 @synthesize textField1;
 @synthesize textField2;
@@ -24,7 +25,6 @@
     label1.text = [NSString stringWithFormat:@"%i", valor];
 }
 -(IBAction)teclado:(id)sender   {
-    
 }
 -(IBAction)calculo  {
     float valA = [textField1.text floatValue];
